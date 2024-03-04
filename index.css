@@ -1321,5 +1321,24 @@ nav {
             margin-left: 30px;
         
         }
+        .footerbox{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            grid-gap: px;
+            text-align: center;
+            justify-content: center;
+            background: transparent;
+        }
+        .container{
+            display:inline-block;
+          
+            height: 200px;
+            background:transparent;
+            margin: 5px 10px;
+            border-radius: 8px;
+            padding: 10px;
+           font-size: 12px;
+           border-right: solid black 2px;
+        }
 }
 
